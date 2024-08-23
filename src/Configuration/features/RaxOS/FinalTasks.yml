@@ -132,3 +132,7 @@ actions:
 - !appx: {operation: clearCache, name: '*XboxGamingOverlay*'}
 - !appx: {operation: clearCache, name: '*XboxIdentityProvider*'}
 - !appx: {operation: clearCache, name: '*XboxSpeechToTextOverlay*'}
+
+  # Force update group policy
+- !run: 
+exe: "gpupdate.exe"
