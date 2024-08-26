@@ -1,6 +1,6 @@
 ---
 title: Start
-description: Copies Revision folders/files, and configures some initial settings
+description: Copies folders/files, and configures some initial settings
 privilege: TrustedInstaller
 actions:
 
